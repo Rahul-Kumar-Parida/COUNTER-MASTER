@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 90vh;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 223, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/20477/300-PD1058157.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container1 {
+    width: 30%;
+    height: 80%;
+    background-color:rgb(174, 174, 174);
+    border-radius: 12px;
+    border: 5px solid black;
+    background-image: url(https://d3nn873nee648n.cloudfront.net/900x600/100165/300-ZM1027892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: rgb(219, 122, 254);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'YourFont', Arial, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: #280000;
+    animation: zoomIn 2s ease-in-out infinite;
+}
+@keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust the scale factor as needed */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @media (max-width: 768px) {
+    h1{
+        font-size: 30px;
+        font-family: 'YourFont', Arial, sans-serif;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        color: #280000;
+        animation: zoomIn 2s ease-in-out infinite;
+
+    }
+    .container1 {
+      width: 70%;
+      height: 76%;
+      background-color:rgb(174, 174, 174);
+      border-radius: 12px;
+      border: 2px solid black;
+      
+  }
+  .reset {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    padding: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    border-radius: 12px;
+    background-color: chartreuse;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  .reset:hover{
+    background-color: rgb(0, 255, 8);
+  }
+  .design{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+  }
+  @media (max-width: 428px) {
+    h1{
+        font-size: 20px;
+        font-family: 'YourFont', Arial, sans-serif;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        color: #280000;
+        animation: zoomIn 2s ease-in-out infinite;
+    }
+    .container1 {
+      width: 70%;
+      height: 76%;
+      background-color:rgb(174, 174, 174);
+      border-radius: 12px;
+      border: 2px solid black;
+      
+  }
+  .design{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+  }
+  .reset {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    padding: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    border-radius: 12px;
+    background-color: chartreuse;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  .reset:hover{
+    background-color: rgb(0, 255, 8);
+  }
+  }
+  @media (max-width: 1024px) {
+    .container1 {
+      width: 80%;
+      height: 70%;
+      background-color:rgb(174, 174, 174);
+      border-radius: 12px;
+      border: 2px solid black;
+      
+  }
+  .design{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+  .reset {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    border-radius: 12px;
+    background-color: chartreuse;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  .reset:hover{
+    background-color: rgb(0, 255, 8);
+  }
+  }
+.head1{
+  text-align: center;
+  position: relative;
+  top:7%;
+  font-size: 30px;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.head2{
+  text-align: center;
+  position: relative;
+  top:9%;
+  font-size: 40px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.container2 {
+  display: grid;
+  position: relative;
+  top: 18%;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  height: 25vh;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+.increment {
+  padding: 10%;
+  width: 130px;
+  font-size: 18px;
+  background-color: rgb(119, 119, 243);
+  border: 3px solid black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+.increment:hover {
+  background-color: rgb(58, 58, 250);
+}
+.decrement {
+  padding: 10%;
+  width: 130px;
+  font-size: 18px;
+  background-color: rgb(249, 98, 98);
+  border: 3px solid black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+
+}
+.decrement:hover {
+  background-color: rgb(255, 29, 29);
+}
+.save {
+  padding: 10%;
+  width: 130px;
+  font-size: 18px;
+  background-color: rgb(109, 248, 29);
+  
+  border: 3px solid black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+}
+.save:hover {
+  background-color: rgb(0, 252, 0);
+}
+
+.para {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 19%;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid black;
+  border-radius: 8px;
+}
+.savepara {
+  font-size: 25px;
+ height: 16%; 
+ width: 98%;
+ border-radius: 12px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 20%;
+    background-color: aquamarine;
+    overflow-y:auto ;
+    padding: 3px;
+    padding-right: 3px;
+    resize: none;
+  }
+  .savepara::placeholder {
+    font-size: 15px;
+    color: black;
+  }
+  .reset {
+    position: absolute;
+    right: 7%;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    border-radius: 12px;
+    background-color: chartreuse;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  .reset:hover{
+    background-color: rgb(0, 255, 8);
+  }
+  .design{
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
