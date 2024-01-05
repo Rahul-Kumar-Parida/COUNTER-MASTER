@@ -23,8 +23,4 @@ function save(){
 }
 document.querySelector(".save").addEventListener("click", save);
 
-function reset(){
-  document.querySelector(".savepara").value = "";
-  
-}
-document.querySelector(".reset").addEventListener("click", reset);
+
