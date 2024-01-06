@@ -23,4 +23,7 @@ function save(){
 }
 document.querySelector(".save").addEventListener("click", save);
 
-
+function refresh(){
+  location.reload()
+}
+document.querySelector(".reset").addEventListener("click", refresh)
